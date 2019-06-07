@@ -35,6 +35,10 @@
 		8BA815D522AABAF8002804F7 /* twinlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BA815C722AABAF8002804F7 /* twinlake.jpg */; };
 		8BA815D622AABAF8002804F7 /* hiddenlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BA815C822AABAF8002804F7 /* hiddenlake.jpg */; };
 		8BA815D722AABAF8002804F7 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BA815C922AABAF8002804F7 /* charleyrivers.jpg */; };
+		8BA815DD22AABC2A002804F7 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA815DC22AABC2A002804F7 /* HikeView.swift */; };
+		8BA815DF22AABC57002804F7 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA815DE22AABC57002804F7 /* HikeGraph.swift */; };
+		8BA815E122AABC75002804F7 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA815E022AABC75002804F7 /* HikeDetail.swift */; };
+		8BA815E322AABD02002804F7 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA815E222AABD02002804F7 /* GraphCapsule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,8 +56,8 @@
 		8BA815B122AAB84C002804F7 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		8BA815B422AAB932002804F7 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		8BA815B622AAB940002804F7 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
-		8BA815B822AAB9DF002804F7 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
-		8BA815BA22AAB9FC002804F7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		8BA815B822AAB9DF002804F7 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleImage.swift; path = ../CircleImage.swift; sourceTree = "<group>"; };
+		8BA815BA22AAB9FC002804F7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = ../MapView.swift; sourceTree = "<group>"; };
 		8BA815BC22AABAF6002804F7 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		8BA815BD22AABAF6002804F7 /* stmarylake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake.jpg; sourceTree = "<group>"; };
 		8BA815BE22AABAF6002804F7 /* umbagog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = umbagog.jpg; sourceTree = "<group>"; };
@@ -68,6 +72,10 @@
 		8BA815C722AABAF8002804F7 /* twinlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twinlake.jpg; sourceTree = "<group>"; };
 		8BA815C822AABAF8002804F7 /* hiddenlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hiddenlake.jpg; sourceTree = "<group>"; };
 		8BA815C922AABAF8002804F7 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
+		8BA815DC22AABC2A002804F7 /* HikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		8BA815DE22AABC57002804F7 /* HikeGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
+		8BA815E022AABC75002804F7 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
+		8BA815E222AABD02002804F7 /* GraphCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,10 +175,22 @@
 				8BA8159B22AAB5A8002804F7 /* LandmarkList.swift */,
 				8BA815B622AAB940002804F7 /* LandmarkRow.swift */,
 				8BA815B422AAB932002804F7 /* LandmarkDetail.swift */,
-				8BA815B822AAB9DF002804F7 /* CircleImage.swift */,
-				8BA815BA22AAB9FC002804F7 /* MapView.swift */,
+				8BA815DC22AABC2A002804F7 /* HikeView.swift */,
+				8BA815E022AABC75002804F7 /* HikeDetail.swift */,
+				8BA815DB22AABBF6002804F7 /* GenericView */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		8BA815DB22AABBF6002804F7 /* GenericView */ = {
+			isa = PBXGroup;
+			children = (
+				8BA815B822AAB9DF002804F7 /* CircleImage.swift */,
+				8BA815BA22AAB9FC002804F7 /* MapView.swift */,
+				8BA815DE22AABC57002804F7 /* HikeGraph.swift */,
+				8BA815E222AABD02002804F7 /* GraphCapsule.swift */,
+			);
+			path = GenericView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,14 +279,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BA8159822AAB5A8002804F7 /* AppDelegate.swift in Sources */,
+				8BA815DD22AABC2A002804F7 /* HikeView.swift in Sources */,
 				8BA815AE22AAB817002804F7 /* Data.swift in Sources */,
 				8BA8159A22AAB5A8002804F7 /* SceneDelegate.swift in Sources */,
 				8BA815BB22AAB9FC002804F7 /* MapView.swift in Sources */,
+				8BA815E322AABD02002804F7 /* GraphCapsule.swift in Sources */,
 				8BA815B222AAB84C002804F7 /* Hike.swift in Sources */,
 				8BA815B522AAB932002804F7 /* LandmarkDetail.swift in Sources */,
 				8BA815AC22AAB7C5002804F7 /* UserData.swift in Sources */,
+				8BA815DF22AABC57002804F7 /* HikeGraph.swift in Sources */,
 				8BA8159C22AAB5A8002804F7 /* LandmarkList.swift in Sources */,
 				8BA815B022AAB834002804F7 /* Landmark.swift in Sources */,
+				8BA815E122AABC75002804F7 /* HikeDetail.swift in Sources */,
 				8BA815B722AAB940002804F7 /* LandmarkRow.swift in Sources */,
 				8BA815B922AAB9DF002804F7 /* CircleImage.swift in Sources */,
 			);
@@ -407,7 +431,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "SwiftUISample/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUISample/Info.plist;
+				INFOPLIST_FILE = SwiftUISample/SupportingFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -426,7 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "SwiftUISample/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUISample/Info.plist;
+				INFOPLIST_FILE = SwiftUISample/SupportingFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
