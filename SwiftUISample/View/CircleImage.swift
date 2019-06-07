@@ -22,7 +22,7 @@ struct CircleImage: View {
 #if DEBUG
 struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
-        CircleImage(image: Image("me"))
+        CircleImage(image: Image("turtlerock"))
     }
 }
 #endif
