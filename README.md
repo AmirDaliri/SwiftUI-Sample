@@ -29,39 +29,6 @@ Handling User Input
 <img src="images/HandlingUserInput.png" width="80%">
 
 
-### Drawing and Animation
-
-Drawing Paths And Shapes
-
-<img src="images/DrawingPathsAndShapes.png" width="80%">
-
-
-Animating Views And Transitions
-
-<img src="images/AnimatingViewsAndTransitions.png" width="80%">
-
-
-### App Design and Layout
-
-Composing Complex Interfaces
-
-<img src="images/ComposingComplexInterfaces.png" width="80%">
-
-
-Working With UIControls
-
-<img src="images/WorkingWithUIControls.png" width="80%">
-<img src="images/WorkingWithUIControls2.png" width="80%">
-
-
-### Framework Integration
-
-Interfacing With UIKit
-
-<img src="images/InterfacingWithUIKit.png" width="80%">
-
-
-
 For more information, please visit [SwiftUI Website:](https://developer.apple.com/tutorials/swiftui)
 
 If you have a better reference example, look forward to sharing it and working hard for open source!
