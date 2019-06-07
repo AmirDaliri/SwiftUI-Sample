@@ -100,18 +100,12 @@
 		8BA8159622AAB5A8002804F7 /* SwiftUISample */ = {
 			isa = PBXGroup;
 			children = (
-				8BA815B322AAB88E002804F7 /* DataModel */,
 				8BA8159722AAB5A8002804F7 /* AppDelegate.swift */,
 				8BA8159922AAB5A8002804F7 /* SceneDelegate.swift */,
-				8BA8159B22AAB5A8002804F7 /* LandmarkList.swift */,
-				8BA815B622AAB940002804F7 /* LandmarkRow.swift */,
-				8BA815B422AAB932002804F7 /* LandmarkDetail.swift */,
-				8BA815B822AAB9DF002804F7 /* CircleImage.swift */,
-				8BA815BA22AAB9FC002804F7 /* MapView.swift */,
-				8BA8159D22AAB5AA002804F7 /* Assets.xcassets */,
-				8BA815A222AAB5AA002804F7 /* LaunchScreen.storyboard */,
-				8BA815A522AAB5AA002804F7 /* Info.plist */,
+				8BA815B322AAB88E002804F7 /* DataModel */,
+				8BA815DA22AABBBD002804F7 /* View */,
 				8BA815D822AABB1B002804F7 /* Resources */,
+				8BA815D922AABB94002804F7 /* SupportingFile */,
 				8BA8159F22AAB5AA002804F7 /* Preview Content */,
 			);
 			path = SwiftUISample;
@@ -155,6 +149,28 @@
 				8BA815BE22AABAF6002804F7 /* umbagog.jpg */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		8BA815D922AABB94002804F7 /* SupportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				8BA8159D22AAB5AA002804F7 /* Assets.xcassets */,
+				8BA815A222AAB5AA002804F7 /* LaunchScreen.storyboard */,
+				8BA815A522AAB5AA002804F7 /* Info.plist */,
+			);
+			path = SupportingFile;
+			sourceTree = "<group>";
+		};
+		8BA815DA22AABBBD002804F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BA8159B22AAB5A8002804F7 /* LandmarkList.swift */,
+				8BA815B622AAB940002804F7 /* LandmarkRow.swift */,
+				8BA815B422AAB932002804F7 /* LandmarkDetail.swift */,
+				8BA815B822AAB9DF002804F7 /* CircleImage.swift */,
+				8BA815BA22AAB9FC002804F7 /* MapView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
